@@ -1,0 +1,5 @@
+package com.klyra.simple_fast_tracker
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

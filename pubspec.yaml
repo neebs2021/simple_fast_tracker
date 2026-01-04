@@ -1,0 +1,55 @@
+name: simple_fast_tracker
+description: "Private Fast Tracking App"
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  supabase_flutter: ^2.8.0
+  encrypt: ^5.0.3
+  table_calendar: ^3.1.2
+  percent_indicator: ^4.2.3
+  flutter_svg: ^2.0.10
+  intl: ^0.19.0
+  uuid: ^4.5.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  file_picker: ^10.3.8
+  share_plus: ^12.0.1
+  toastification: ^3.0.3
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/images/
+
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+        - asset: assets/fonts/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700

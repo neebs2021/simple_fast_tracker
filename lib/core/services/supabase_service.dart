@@ -1,0 +1,16 @@
+import 'package:get/get.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+import '../constants/app_constants.dart';
+
+class SupabaseService extends GetxService {
+  Future<SupabaseService> init() async {
+    await Supabase.initialize(
+      url: AppConstants.supabaseUrl,
+      anonKey: AppConstants.supabaseAnonKey,
+    );
+    return this;
+  }
+  
+  SupabaseClient get client => Supabase.instance.client;
+}
