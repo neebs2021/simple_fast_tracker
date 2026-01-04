@@ -1,16 +1,31 @@
-# simple_fast_tracker
+# Simple Fast Tracker
 
-A new Flutter project.
+A privacy-focused intermittent fasting tracker built with Flutter.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="assets/screenshots/track.png" height="500" alt="Tracking Screen" style="margin-right: 10px;">
+  <img src="assets/screenshots/history.png" height="500" alt="History Screen" style="margin-right: 10px;">
+  <img src="assets/screenshots/settings.png" height="500" alt="Settings Screen">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Privacy First**: Choose between "Guest Mode" (Local Only) or "Signed In" (End-to-End Encrypted Cloud Sync).
+- **Offline Capable**: All data is stored locally first using Hive.
+- **Secure**: Sensitive data (Start Time, Duration, Notes) is encrypted before leaving your device.
+- **Data Portability**: Export and Import your data securely with a passkey.
+- **Beautiful UI**: Modern, clean, and responsive design using the Outfit font family.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+
+**Non-Commercial License**
+
+This software is free for **personal use only**.
+
+By downloading, installing, or using this software, you agree to the following terms:
+1.  **No Commercial Use**: You may not use this software for any commercial purpose, including but not limited to selling it, incorporating it into a commercial product, or using it to generate revenue.
+2.  **No Redistribution for Profit**: You may not distribute this software or any derivative works for a fee.
+
+For commercial licensing inquiries, please contact the author.
